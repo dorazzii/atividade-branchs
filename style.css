@@ -37,3 +37,7 @@ button {
     border: none;
     cursor: pointer;
 }
+.escuro {
+    background-color: #222;
+    color: white;
+}
