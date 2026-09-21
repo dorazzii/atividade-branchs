@@ -13,8 +13,15 @@ formulario.addEventListener("submit", function (event) {
     const nome = document.getElementById("nome").value;
     const email = document.getElementById("email").value;
 
-    if (nome === "" || email === "") {
-        alert("Preencha todos os campos!");
-        return;
-    }
+    if (nome === "") {
+    alert("Digite seu nome!");
+    return;
+}
+
+if (email === "") {
+    alert("Digite seu e-mail!");
+    return;
+}
+
+alert("Formulário enviado com sucesso!");
 });
