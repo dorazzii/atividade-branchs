@@ -41,3 +41,17 @@ button {
     background-color: #222;
     color: white;
 }
+.imagens {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.imagens img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+git add .
