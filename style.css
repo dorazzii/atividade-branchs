@@ -8,3 +8,14 @@ body {
 h1 {
     color: #2563eb;
 }
+nav {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
