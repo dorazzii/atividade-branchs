@@ -54,3 +54,11 @@ button {
     object-fit: cover;
     border-radius: 10px;
 }
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #2563eb;
+    color: white;
+}
+
